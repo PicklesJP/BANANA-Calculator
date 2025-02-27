@@ -11,4 +11,5 @@ The calculation process is done in decimal, and result is displayed in BANANA bi
 計算過程では10進数にした後結果としてBANANA2進数で表示します
 
 
+参考資料:Microsoftの電卓チュートリアル
 unfinished program jokeprogram created by Pickles.JP
