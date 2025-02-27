@@ -11,4 +11,4 @@ The calculation process is done in decimal, and the result is displayed in BANAN
 計算過程では10進数にした後結果としてBANANA2進数で表示します
 
 
-unfinished program jokeprogram create by Pickles.JP
+unfinished program jokeprogram created by Pickles.JP
