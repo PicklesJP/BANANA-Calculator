@@ -12,4 +12,6 @@ The calculation process is done in decimal, and result is displayed in BANANA bi
 
 
 参考資料:Microsoftの電卓チュートリアル
+
+
 unfinished program jokeprogram created by Pickles.JP
