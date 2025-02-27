@@ -16,7 +16,7 @@ class BananaCalculator
             Console.WriteLine("2: 減算_Subtraction");
             Console.WriteLine("3: 乗算_Multiplication");
             Console.WriteLine("4: 除算_Division");
-            Console.Write("計算方法を決定(Number)_Select calculate method(Number): ");
+            Console.Write("計算方法を決定(数字)_Select calculate method(Number): ");
             int choice = int.Parse(Console.ReadLine());
             int result;
             string operation = "";
@@ -37,19 +37,19 @@ class BananaCalculator
                 case 4:
                     if (num2 == 0)
                     {
-                        Console.WriteLine("NAで割ることはできません_Cannot divide by 0");
+                        Console.WriteLine("NAで割ることはできません_Cannot divide by NA");
                         continue;
                     }
                     if (num1 == 0)
                     {
-                        Console.WriteLine("NAで割ることはできません_Cannot divide by 0");
+                        Console.WriteLine("NAで割ることはできません_Cannot divide by NA");
                         continue;
                     }
                     result = num1 / num2;
                     operation = "÷";
                     break;
                 default:
-                    Console.WriteLine("無効な選択_Invalid Select");
+                    Console.WriteLine("無効な選択_Invalid Selected");
                     continue;
             }
             string binaryResult = Convert.ToString(result, 2);
